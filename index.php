@@ -6,6 +6,18 @@
     <title>Sistema Agendador 1.0</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        <h1>Sistema Agendador 1.0</h1>
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">Contato</a> |
+            <a href="#">Tarefas</a> |
+            <a href="#">Eventos</a>
+        </nav>
+    </header>
+
+    <main>
+        <?php ?>
+    </main>
 </body>
 </html>
