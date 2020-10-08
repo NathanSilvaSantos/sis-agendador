@@ -2,6 +2,10 @@
     <h3>Contatos</h3>
 </header>
 
+<div>
+    <a href="index.php?menuop=cad-contato">Novo Contato</a>
+</div>
+
 <table>
     <thead>
         <tr>
