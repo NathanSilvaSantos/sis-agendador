@@ -1,3 +1,8 @@
+<?php 
+include("db/conexao.php");
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -36,7 +41,6 @@
                 case 'eventos':
                     include("paginas/eventos/eventos.php");
                     break;
-                    
                     
                 default:
                     include("paginas/home/home.php");
