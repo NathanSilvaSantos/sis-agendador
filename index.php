@@ -38,7 +38,11 @@ include("db/conexao.php");
                 case 'cad-contato':
                     include("paginas/contatos/cad-contato.php");
                     break;
-    
+                
+                case 'inserir-contato':
+                    include("paginas/contatos/inserir-contato.php");
+                    break;
+        
                 case 'tarefas':
                     include("paginas/tarefas/tarefas.php");
                     break;

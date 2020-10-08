@@ -3,7 +3,7 @@
 </header>
 
 <div>
-    <form action="" method="post">
+    <form action="index.php?menuop=inserir-contato" method="post">
         <div>
         <label for="nomeContato">Nome: </label>
         <input type="text" id="nomeContato" name="nomeContato">
@@ -26,7 +26,7 @@
 
         <div>
         <label for="dataNascContato">Data de Nasc: </label>
-        <input type="text" id="dataNascContato" name="dataNascContato">
+        <input type="date" id="dataNascContato" name="dataNascContato">
         </div>
 
         <div>
