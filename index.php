@@ -22,6 +22,7 @@ include("db/conexao.php");
     </header>
 
     <main>
+    <hr>
         <?php
             $menuop = isset($_GET["menuop"])?$_GET["menuop"]:"home";
 
@@ -47,6 +48,7 @@ include("db/conexao.php");
                     break;
             }
         ?>
+
     </main>
 </body>
 </html>
