@@ -18,6 +18,11 @@
         <label for="telefoneContato">Telefone: </label>
         <input type="text" id="telefoneContato" name="telefoneContato">
         </div>
+
+        <div>
+        <label for="enderecoContato">Endereço: </label>
+        <input type="text" id="enderecoContato" name="enderecoContato">
+        </div>
         
         <div>
         <label for="sexoContato">Sexo: </label>
