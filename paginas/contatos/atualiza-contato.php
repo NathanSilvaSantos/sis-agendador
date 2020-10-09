@@ -11,13 +11,13 @@
     $dataNascContato = mysqli_real_escape_string($conexao, $_POST['dataNascContato']);
 
     $sql = "UPDATE tbcontatos SET 
-        nomeContato = $nomeContato, 
-        emailContato = $emailContato, 
-        telefoneContato = $telefoneContato,
-        enderecoContato = $enderecoContat,
-        sexoContato = $sexoContato, 
-        dataNascContato = $dataNascContato
-        WHERE idContato = $idContato
+        nomeContato = `$nomeContato`, 
+        emailContato = `$emailContato`, 
+        telefoneContato = `$telefoneContato`,
+        enderecoContato = `$enderecoContat`,
+        sexoContato = `$sexoContato`, 
+        dataNascContato = `$dataNascContato`
+        WHERE idContato = `$idContato`
         ";
 
     mysqli_query($conexao, $sql) or die("Erro ao executar a consulta". mysqli_error($conexao));

@@ -51,6 +51,10 @@ include("db/conexao.php");
                     include("paginas/contatos/atualiza-contato.php");
                     break;
             
+                case 'excluir-contato':
+                    include("paginas/contatos/excluir-contato.php");
+                    break;
+        
                 case 'tarefas':
                     include("paginas/tarefas/tarefas.php");
                     break;
